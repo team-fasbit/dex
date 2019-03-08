@@ -14,9 +14,9 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const web3 = new Web3(config.ethRPC);
 const fs = require('fs');
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/api.fasbit.com/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/api.fasbit.com/cert.pem', 'utf8');
-const ca = fs.readFileSync('/etc/letsencrypt/live/api.fasbit.com/chain.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/dex.fasbit.com/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/dex.fasbit.com/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/dex.fasbit.com/chain.pem', 'utf8');
 const credentials = {
 	key: privateKey,
 	cert: certificate,
