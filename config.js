@@ -2,9 +2,9 @@ module.exports = {
     contractDExAddrs: [
         { addr: '0xbca13cbebff557143e8ad089192380e9c9a58c70', info: 'Deployed 04/16/2018' },
     ],
-    sessionSecret: 'session secret',
-    SITE_ADMIN_MAIL: 'admin@email.com',
-    SITE_ADMIN_PASSWORD: '123456',
+    sessionSecret: 'theXsessionXsecret',
+    SITE_ADMIN_MAIL: 'admin@icodash.com',
+    SITE_ADMIN_PASSWORD: '12345678',
     ethTestnet: false,
     port: '9000',
     ethRPC: 'ws://ec2-18-188-140-58.us-east-2.compute.amazonaws.com:8546',
